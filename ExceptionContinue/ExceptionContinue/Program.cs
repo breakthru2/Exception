@@ -6,9 +6,17 @@ using System.Threading.Tasks;
 
 namespace ExceptionContinue
 {
-    class Exception
+    class Product
     {
+        private int _quantity;
+        private float _price;
+        private double _sales;
+        private string _productName;
 
+        public Product()
+        {
+            _productName = "Motherboard";
+        }
     }
     class Program
     {
