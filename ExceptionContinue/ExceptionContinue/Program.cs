@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace ExceptionContinue
 {
+    class Exception
+    {
+
+    }
     class Program
     {
         static void Main(string[] args)
