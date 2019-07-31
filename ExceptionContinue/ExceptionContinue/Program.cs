@@ -20,7 +20,7 @@ namespace ExceptionContinue
 
         public void AcceptDetails()
         {
-            Console.Write("Enter product name : ");
+            Console.Write("Enter product quantity : ");
             try
             {
                 _quantity = Int32.Parse(Console.ReadLine());
@@ -45,7 +45,11 @@ namespace ExceptionContinue
             Console.WriteLine("Product Price : {0}",_price);
             Console.WriteLine("Product Sale : {0}",_sales);
         }
-        
+        public static void ProductTest()
+        {
+            var obj = new Product();
+            obj.AcceptDetails();
+        }
     }
     class Program
     {
