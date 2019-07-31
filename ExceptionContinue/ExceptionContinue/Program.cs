@@ -10,7 +10,8 @@ namespace ExceptionContinue
     {
         static void Main(string[] args)
         {
-            Product.ProductTest();
+                //Product.ProductTest();
+                GetValue.GetValueTest();
             Console.ReadLine();
         }
     }
